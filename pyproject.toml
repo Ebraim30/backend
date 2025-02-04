@@ -1,0 +1,19 @@
+[project]
+name = "cadastro"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Ebraim30", email = "ebraim.herrera@gmail.com"},
+]
+dependencies = ["django>=4.2.18"]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
